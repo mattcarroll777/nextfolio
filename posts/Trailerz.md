@@ -14,4 +14,4 @@ linkTwo:
   }
 ---
 
-Trailerz was my first project in my Google User Experience Design Course. I was prompted to create a mobile application for watching movie trailers. I began by defining the main user flow as, "someone trying to find a moive trailer to watch or show a friend." Then I ideated using paper and digital wireframing, conducted usabilitlty studies, low and high-fideltiy prototyping and continous iterations to create my final designs.
+As my initiation into the Google UX Design course, I embarked on the creation of "Trailerz" – a mobile application meticulously designed for browsing and watching movie trailers. Figma, with its rich design capabilities, was the tool of choice for this project. My primary objective was to cater to users who, whether out of personal interest or the desire to share with others, are keen on finding the perfect movie trailer. "Trailerz" symbolizes my maiden voyage into the realm of UX Design. Through a rigorous and user-centric design process, I not only fashioned a functional mobile application but also honed my skills in Figma and embraced the iterative essence of UX design.

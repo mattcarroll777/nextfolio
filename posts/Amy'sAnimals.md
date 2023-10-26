@@ -14,4 +14,4 @@ linkTwo:
   }
 ---
 
-Amy's Animal Shelter was my second project in my Google User Experience Design Course. I was instructed to create a responsive web app for an animal shelter. Instead of using figma, I was prompted to use a different tool, AdobeXD.
+In my journey through the Google UX Design course, my second hands-on project led me to conceptualize and design "Amy's Animals" – a responsive web application dedicated to an animal shelter. The task demanded not just the application of core UX principles, but also familiarization with a novel design tool: AdobeXD. Keeping in mind the diverse range of devices users might access the application from, the web app's responsive design was meticulously crafted to ensure seamless usability across desktops, tablets, and mobile devices. The design features a prioritized an easy-to-navigate interface, guiding potential adopters through the animal profiles, adoption processes, and other pertinent resources. This design leveraged the powerful capabilities of AdobeXD to build high-fidelity prototypes, experiment with design aesthetics, and simulate user journeys.
