@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Header from './header';
 
 const name = 'Matthew Carroll';
 export const siteTitle = 'Portfolios';
@@ -12,10 +13,7 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Portfoliosite for Matthew Carroll" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -25,6 +23,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+      <Header />
       {/* <header className={styles.header}>
         {home ? (
           <>
