@@ -1,6 +1,6 @@
 ---
 title: 'Flashle'
-date: '2023-04-28'
+date: '2023-10-14'
 link: { title: Live Site, val: https://flash-lemon.vercel.app/ }
 ---
 

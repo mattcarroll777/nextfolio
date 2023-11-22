@@ -1,6 +1,6 @@
 ---
 title: 'Sam Bankman-Friend & FTX Scandal'
-date: '2023-04-28'
+date: '2023-05-04'
 link:
   {
     title: Google Doc,

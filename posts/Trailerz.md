@@ -1,6 +1,6 @@
 ---
 title: 'Trailerz'
-date: '2022-10-29'
+date: '2022-11-29'
 link:
   {
     title: Figma Mobile Prototype,

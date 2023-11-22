@@ -1,6 +1,6 @@
 ---
 title: 'MyMedJournal'
-date: '2022-10-29'
+date: '2023-03-21'
 link:
   {
     title: Figma Mobile Prototype,
