@@ -5,6 +5,7 @@ import { getSortedFullstacksData } from '../lib/fullstacks';
 import { getSortedPostsData } from '../lib/posts';
 import { getSortedUniversityData } from '../lib/university';
 import { getSortedNextsData } from '../lib/next';
+import { getSortedFigmatosData } from '../lib/figmatos';
 import Link from 'next/link';
 import Date from '../components/date';
 
@@ -13,6 +14,7 @@ export default function Home({
   allUniversityData,
   allNextsData,
   allFullstacksData,
+  allFigmatosData,
 }) {
   return (
     <Layout home>
@@ -22,6 +24,31 @@ export default function Home({
       {/* <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
       </section> */}
+
+      <h2 className={utilStyles.headingLg}>From Figma To Full-Stack </h2>
+      <div>
+        In the realm of web development, the journey from a conceptual design to
+        a fully functioning website is both an art and a science. This is where
+        my 'Figma To Full-Stack' journey begins. Bridging the gap between
+        aesthetic design and technical implementation, this section showcases my
+        ability to transform intuitive Figma designs into dynamic, full-stack
+        applications. Each project reflects a meticulous process of crafting
+        user-centric interfaces, ensuring seamless user experiences, and
+        integrating cutting-edge technology to bring visionary designs to life.
+        Dive into my world where pixels meet programming, and designs evolve
+        into digital realities.
+      </div>
+      <ul className={utilStyles.list}>
+        {allFigmatosData.map(({ id, date, title }) => (
+          <li className={utilStyles.listItem} key={id}>
+            <Link href={`/figmatos/${id}`}>{title}</Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <Date dateString={date} />
+            </small>
+          </li>
+        ))}
+      </ul>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Next JS</h2>
@@ -143,12 +170,14 @@ export async function getStaticProps() {
   const allUniversityData = getSortedUniversityData();
   const allNextsData = getSortedNextsData();
   const allFullstacksData = getSortedFullstacksData();
+  const allFigmatosData = getSortedFigmatosData();
   return {
     props: {
       allFullstacksData,
       allPostsData,
       allUniversityData,
       allNextsData,
+      allFigmatosData,
     },
   };
 }
