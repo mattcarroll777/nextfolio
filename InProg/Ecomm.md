@@ -1,8 +1,10 @@
 ---
 title: 'Ecommerce Clothing Store'
 date: '2023-11-28'
-link: { title: Live Site, val: https://postgres-store.vercel.app/ }
+link: { title: Live Site, val }
 ---
+
+<!-- https://postgres-store.vercel.app/ -->
 
 My store, crafted with the innovative Next.js framework, offers a dynamic and responsive shopping experience. This ensures a seamless journey from browsing our stylish collections to checking out your favorite picks.
 

@@ -25,7 +25,7 @@ export default function Home({
         <p>[Your Self Introduction]</p>
       </section> */}
 
-      <h2 className={utilStyles.headingLg}>From Figma To Full-Stack </h2>
+      <h2 className={utilStyles.headingLg}>From Figma To Full-Stack</h2>
       <div>
         In the realm of web development, the journey from a conceptual design to
         a fully functioning website is both an art and a science. This is where
